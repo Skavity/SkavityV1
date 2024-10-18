@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Welcome to the TeethAi"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="@color/white"
+
+        android:textColor="#000000" />
+</LinearLayout>

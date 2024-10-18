@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="473dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Disclaimer  This app is intended for informational purposes only and should not be used as a substitute for professional dental advice, diagnosis, or treatment. The app uses AI analysis of images to provide general insights about your oral health. This Ai might not be accurate, so do NOT take the diagnosis seriously. It is important to see a dermatologist for regular checkups and to address any dental concerns.  This app cannot diagnose specific dental conditions or replace the expertise of a dermatologist.  Always seek the advice of your dermatologist or other qualified healthcare provider with any questions you may have regarding a medical condition.  Never disregard professional medical advice or delay in seeking it because of information provided by this app. By using this app, you agree to these terms."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF" />  <!-- Background color in HEX code -->
+
+
+</LinearLayout>

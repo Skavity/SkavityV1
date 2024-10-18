@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/mouth_photo"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:background="@color/black"
+        android:contentDescription="Mouth Photo"
+        android:scaleType="centerInside" />
+
+
+    <Button
+        android:id="@+id/take_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF" /> <!-- Background color in HEX code -->
+
+    <Button
+        android:id="@+id/upload_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Photo"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF" /> <!-- Background color in HEX code -->
+
+    <Button
+        android:id="@+id/analyze_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analyze Photo"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF" /> <!-- Background color in HEX code -->
+
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text="Result will be displayed here"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
